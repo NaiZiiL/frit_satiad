@@ -10,7 +10,10 @@ public class Main {
 
             boolean executando = true;
             while (executando) {
-                System.out.println("\n=== Sistema da " + lanchonete.getNome() + " ===");
+                System.out.println("============================================================");
+                System.out.println("     Trabalho desenvolvido por: Naiara Fernanada Silva      " );
+                System.out.println("============================================================" );
+                System.out.println("\n============" + lanchonete.getNome() + " ===================");
                 System.out.println("1. Fazer pedido");
                 System.out.println("2. Cadastrar cliente");
                 System.out.println("3. Listar clientes");
